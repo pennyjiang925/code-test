@@ -9,9 +9,9 @@ const Homepage = () => {
   return (
     <Box>
       <FirstPart />
-      <SecondPart />;
-      <ThirdPart />;
-      <FourthPart />;
+      <SecondPart />
+      <ThirdPart />
+      <FourthPart />
       <Footer />
     </Box>
   );

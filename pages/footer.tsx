@@ -6,12 +6,13 @@ const Footer = () => {
     <Box className="footer">
       <Box className="footer-info">
         <Typography
-          className="title"
+          className="contact-info"
           variant="h6"
           component="h6"
           fontSize={12}
           fontWeight={400}
           lineHeight={3}
+          letterSpacing="0.1em"
         >
           INFO@BAKEWELL - WHITE.COM
           <br />
@@ -31,12 +32,13 @@ const Footer = () => {
         </Typography>
 
         <Typography
-          className="title"
+          className="contact-info"
           variant="h6"
           component="h6"
           fontSize={12}
           fontWeight={400}
           lineHeight={3}
+          letterSpacing="0.1em"
         >
           PRIVACY POLICY
           <br />
@@ -46,7 +48,7 @@ const Footer = () => {
         </Typography>
       </Box>
 
-      <Box className="ellipse-2">
+      <Box className="button-3">
         <Box className="contact-box">
           <Typography
             variant="h5"
@@ -54,11 +56,12 @@ const Footer = () => {
             fontSize={16}
             fontWeight={700}
             letterSpacing={3}
+            lineHeight={2}
           >
             CONTACT US
           </Typography>
 
-          <Svg src="/assets/Arrow.svg" width={60} height={60} />
+          <Svg src="/assets/Arrow.svg" width={53} height={18} />
         </Box>
       </Box>
     </Box>
